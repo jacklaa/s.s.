@@ -27,5 +27,6 @@ bool is_valid(int* sec, int n){
 
 //Funcion que imprime secuencia
 void imprimeSec(int* sec, int n){
-
+	for (int i = 0; i < n; i++)
+        printf("%d,", sec[i]);
 }
