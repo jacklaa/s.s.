@@ -23,8 +23,6 @@ int main(int argc, char *argv[]) {
     char* secA = NULL;
     int* secMi;
 
-    //Specifying the expected options
-    //The two options l and b expect numbers as argument
     while ((option = getopt(argc, argv,"cn:s:")) != -1) {
         switch (option) {
             case 'c' : secMin = 0;
