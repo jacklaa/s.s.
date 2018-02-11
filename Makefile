@@ -1,10 +1,10 @@
 CC=gcc
-CFLAGS=-std=c99 
+CFLAGS=-std=c99 -g -Wall
 
 all: secuenciaM
 
 secuenciaM:
-	$(CC) $(CFLAGS) secuenciaM.c -o secuenciaM
+	$(CC) $(CFLAGS) -o secuenciaM secuenciaM.c
 
 
 .PHONY: clean

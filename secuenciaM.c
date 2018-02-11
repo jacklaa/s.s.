@@ -19,7 +19,7 @@ void print_usage() {
 
 int main(int argc, char *argv[]) {
     int option = 0, lenS, x=0;
-    int secMin = -1, sec = -1, n =-1;
+    int secMin = -1, n =-1;
     char* secA = NULL;
     int* secMi;
 
